@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+
+/* Навигация */
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.li, a, button {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+header{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 5%;
+
+}
+.logo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition:all 0.3s ease 0s;
+
+}
+
+.nav_links li a:hover {
+   color: #0088a9 ;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+
+}
+
+/* Витрина */
+.showcase{
+    background-image: url(../img/1.png);
+    border-bottom:1px solid rgba(0, 136, 169, 1);
+    margin-bottom: 30px;
+}
+.showcase .row{
+    height: 600px;
+}
+.showcase h1{
+    height: 50%;
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.showcase p{
+    color:  #fff;
+    margin: 0;
+}
+.showcase-content{
+    background: #333;
+    color: blanchedalmond;
+    margin: auto 0;
+    padding: 5%;
+    opacity: 0.9;
+}
+/* Функции */
+.features h2{
+    font-size: 45px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.features p{
+     color: #888;
+     margin: 0;
+     margin-bottom: 40px;
+
+}
+.features .fa{
+    font-size: 60px;
+    color: rgba(0, 136, 169, 1);
+    
+}
+/* Информация */
+.info{
+   
+    background:#333 url(../images/bg2.png)no-repeat;
+    color: blanchedalmond;
+    text-align:end;
+}
+.info h2{
+    font-size: 35px;
+    margin:0;
+    padding-top: 15px;
+}
+.info ul{
+    list-style: none;
+    padding: 0;
+}
+.info li{
+   line-height: 2em;
+   font-size: 20px;
+}
+
+
+/* Обо мне */
+
+.company{
+    background: #333;
+    color:blanchedalmond;
+    padding: 10px 0;
+}
+
+.company h4{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.company ul{
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+}
+
+.company input[type="text"]{
+    padding: 7px
+}
+.company button{
+    background: #222;
+    color: blanchedalmond;
+    padding: 10px;
+    border: 0;
+}
+
+
+/* Низ */
+
+.main-footer{
+    background: rgba(0, 136, 169, 1);
+    color: blanchedalmond;
+}
+
+
+/* Страница */
+
+.page{
+    margin-bottom: 40px;
+
+}
+
+
+/* Сервис */
+
+.services ul li{
+    list-style: none;
+    padding:10px;
+}
+
+.services ul li:nth-child(odd){
+    background: #333;
+    color:blanchedalmond;
+}
+
+.services ul li:nth-child(even){
+    background: rgba(0, 136, 169, 1);
+    color:blanchedalmond;
+}
+
+
+
+/* Контакт со Мной  */
+
+.contact form{
+    background:#333 ;
+    color: blanchedalmond;
+    padding: 20px;
+}
+.contact form input[type="text"]{
+    width: 50%;
+    height: 30px ;
+    margin-bottom: 10px;
+}
+.contact form textarea{
+    width: 50%;
+    height: 100px ;
+}
+.contact form button{
+    width:50% ;
+    padding: 10px 0;
+    border: 0;
+    background: #222;
+    color:blanchedalmond;
+
+}
+.contact form label{
+    text-transform: uppercase;
+}
+
+
+
+
+
+/* Медиа  */
+
+
+@media(max-width:768px){
+    .showcase h1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px){
+    .showcase .showcase-content{
+       padding: 40px 10px;
+    }
+}
