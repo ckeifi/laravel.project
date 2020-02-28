@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\lara.vel\resources\views/layouts/partials/admin/_scripts.blade.php ENDPATH**/ ?>
