@@ -14,7 +14,8 @@
             <ul class="nav_links">
                 <li><a href="#">LinkedIn</a></li>
                 <li><a href="#">Github</a></li>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="http://instagram.com/arslkv_">Instagram</a></li>
+                <li><a href="/blog">Blog</a></li>
             </ul>
         </nav>
         <div class="flex-center position-ref full-height">
