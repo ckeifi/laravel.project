@@ -35,57 +35,75 @@
     </header>
    
   <!-- Витрина -->
-  <section class="showcase">
-    <div class="container">
-        <div class="row center-xs center-sm center-md center-lg ">
-            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-7 showcase-content">
-                <h1>Welcome to<span class="primary-text"> Webside</span></h1>
-                <p>Personality  blog of ME </p>
-            </div>
-        </div>
-    </div>
-</section>
+
 <!--Функции-->
 <section class="features">
-  <div class="container">
-      <div class="row center-xs center-sm center-md center-lg">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <h2>Features</h2>
-              <p>Languaches wich i learn</p>
-              <!-- Иконки 1 -->
-              <div class="card mb-3" style="max-width: 540px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="./img/html-css.png" class="card-img" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Html/CSS</h5>
-                      <p class="card-text">Learning 30hours.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 25.02.2020</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-               <!-- Иконки 2 -->
-               <div class="card mb-3" style="max-width: 540px;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="./img/php_PNG45.png" class="card-img" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Php/JavaScripts</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 25.02.2020</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
+    <div class="card">
+      <div class="card-image"></div>
+      <div class="card-text">
+        <span class="date">4 days ago</span>
+        <h2>Post One</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
       </div>
-       
-  </div>
+      <div class="card-stats">
+        <div class="stat">
+          <div class="value">4<sup>m</sup></div>
+          <div class="type">read</div>
+        </div>
+        <div class="stat border">
+          <div class="value">5123</div>
+          <div class="type">views</div>
+        </div>
+        <div class="stat">
+          <div class="value">32</div>
+          <div class="type">comments</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image card2"></div>
+      <div class="card-text card2">
+        <span class="date">1 week ago</span>
+        <h2>Post Two</h2>
+        <p>Adipisicing elit. Ducimus, repudiandae corrupti amet temporibus omnis provident illum maxime quod. Lorem ipsum dolor</p>
+      </div>
+      <div class="card-stats card2">
+        <div class="stat">
+          <div class="value">7<sup>m</sup></div>
+          <div class="type">read</div>
+        </div>
+        <div class="stat border">
+          <div class="value">7152</div>
+          <div class="type">views</div>
+        </div>
+        <div class="stat">
+          <div class="value">21</div>
+          <div class="type">comments</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+        <div class="card-image card3"></div>
+        <div class="card-text card3">
+          <span class="date">3 week ago</span>
+          <h2>Post Three</h2>
+          <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
+        </div>
+        <div class="card-stats card3">
+          <div class="stat">
+            <div class="value">5<sup>m</sup></div>
+            <div class="type">read</div>
+          </div>
+          <div class="stat border">
+            <div class="value">3021</div>
+            <div class="type">views</div>
+          </div>
+          <div class="stat">
+            <div class="value">15</div>
+            <div class="type">comments</div>
+          </div>
+        </div>
+      </div>
 </section>
 
 <!-- Информация "Мой навык IT" -->
