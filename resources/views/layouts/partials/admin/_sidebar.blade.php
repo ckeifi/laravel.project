@@ -1,7 +1,8 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4" style="min-height: 917px;">
     <!-- Brand Logo -->
     <a href="#" class="brand-link">
-        <span class="brand-text font-weight-light">Project</span>
+        <img class="logo" src="img/logo.png" alt="logo" title="Arslkv">
+        <span class="brand-text font-weight-light">Admin | Page</span>
     </a>
     <!-- Sidebar -->
     <div class="sidebar">

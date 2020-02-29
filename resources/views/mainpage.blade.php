@@ -12,8 +12,8 @@
         <img class="logo" src="img/logo.png" alt="logo" title=""Arslkv>
         <nav>
             <ul class="nav_links">
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">Github</a></li>
+                <li><a href="https://ua.linkedin.com/in/svyat-voytenko-b6b7ab1a2">LinkedIn</a></li>
+                <li><a href="https://github.com/ckeifi">Github</a></li>
                 <li><a href="http://instagram.com/arslkv_">Instagram</a></li>
                 <li><a href="/blog">Blog</a></li>
             </ul>

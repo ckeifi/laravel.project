@@ -9,18 +9,18 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav  mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="/">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">LinkedIn</a>
+            <a class="nav-link" href="https://ua.linkedin.com/in/svyat-voytenko-b6b7ab1a2">LinkedIn</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Github</a>
+            <a class="nav-link" href="https://github.com/ckeifi">Github</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Instagram</a>
+            <a class="nav-link" href="http://instagram.com/arslkv_">Instagram</a>
           </li>
         </ul>
         <!-- Right Side Of Navbar -->
