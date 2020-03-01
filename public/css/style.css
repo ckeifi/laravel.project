@@ -2,6 +2,7 @@
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
 
+/* Боди */
 
 body{
   margin: 0;
@@ -14,7 +15,7 @@ body{
 
 }
 
-
+/* Навигация */
 
 .li, a, button {
     font-family:  'Nunito'; 
@@ -32,6 +33,7 @@ header{
     padding: 8px 5%;
 
 }
+
 .logo{
     cursor: pointer;
 }
@@ -57,6 +59,7 @@ header{
 
 
 /* Витрина */
+
 .showcase{
     background-image: url(../img/1.png);
     border-bottom:1px solid rgba(0, 136, 169, 1);
@@ -83,6 +86,7 @@ header{
     opacity: 0.9;
 }
 /* Функции */
+
 .features {
     width: 99vw;
     height: 100vh;
@@ -92,6 +96,8 @@ header{
     background-image:url(../img/background.jpg);
     overflow: hidden;
   }
+  /* Первая карточка */
+
   .card {
     display: grid;
     grid-template-columns: 300px;
@@ -172,7 +178,8 @@ header{
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
   }
   
-  /*card2*/
+  /*Каточка 2-я */
+
   .card-image.card2 {
     background: url("../img/im1.jpg");
     background-size: cover;
@@ -187,7 +194,8 @@ header{
   .card-stats.card2 {
     background: rgb(255, 77, 7);
   }
-  /*card3*/
+  /*Карточка 3-я*/
+
   .card-image.card3 {
     background: url("../img/im1.jpg");
     background-size: cover;
@@ -202,7 +210,9 @@ header{
   .card-stats.card3 {
     background: rgb(0, 189, 63);
   }
+  
 /* Информация */
+
 .info{
   display: flex;
   flex-wrap: wrap;
