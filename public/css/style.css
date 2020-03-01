@@ -254,6 +254,25 @@ header{
 
 /* Низ */
 
+.footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+ .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition: all 0.25s;
+}
+
 .main-footer{
   display: flex;
   flex-wrap: wrap;
@@ -263,6 +282,7 @@ header{
   background: black;
   color: blanchedalmond;
 }
+
 
 
 /* Страница */
@@ -295,7 +315,7 @@ header{
 /* Контакт со Мной  */
 
 
-}
+
 .contact form textarea{
   display: flex;
   flex-wrap: wrap;
