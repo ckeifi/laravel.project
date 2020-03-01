@@ -111,7 +111,7 @@ header{
   }
   .card-image {
     grid-area: image;
-    background: url("../public/img/im1.jpg");
+    background: url("/public/img/im1.jpg");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -174,7 +174,7 @@ header{
   
   /*card2*/
   .card-image.card2 {
-    background: url("img2.jpg");
+    background: url("/public/img/im1.jpg");
     background-size: cover;
   }
   .card-text.card2 .date {
@@ -189,7 +189,7 @@ header{
   }
   /*card3*/
   .card-image.card3 {
-    background: url("img3.jpg");
+    background: url("/public/img/im1.jpg");
     background-size: cover;
   }
   .card-text.card3 .date {
