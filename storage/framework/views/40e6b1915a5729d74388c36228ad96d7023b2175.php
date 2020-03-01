@@ -150,6 +150,6 @@
 
 <!-- Скрипты -->
 
- <?php echo $__env->make('portfolio/template/scripts', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php echo $__env->make('portfolio/template/scripts', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 </body>
 </html><?php /**PATH C:\xampp\htdocs\lara.vel\resources\views/mainpage.blade.php ENDPATH**/ ?>

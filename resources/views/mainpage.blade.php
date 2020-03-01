@@ -149,6 +149,6 @@
 
 <!-- Скрипты -->
 
- @include('portfolio/template/scripts')
+@include('portfolio/template/scripts')
 </body>
 </html>
