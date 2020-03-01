@@ -10,11 +10,10 @@ class DatabaseSeeder extends Seeder
      * @return void
      */
     public function run()
-     {
-        DB::table('posts')->truncate();
-
+    {
+    
         $this->call([
-            // UserSeeder::class,
+            UserSeeder::class,
             CategorySeeder::class,
             PostSeeder::class,
         ]);

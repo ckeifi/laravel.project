@@ -3,7 +3,6 @@
 Route::get('/', function () {
     return view('mainpage');
 });
-// Route::middleware('auth', 'admin')->namespace('Admin')
 Route::namespace('Admin')
     ->prefix('admin')
     ->as('admin.')
@@ -29,7 +28,7 @@ Route::namespace('Admin')
         Route::post('invite/{id}', 'InvitationsController@sendInvite')
         ->name('send.invite');
          /**
-         * Admin Auth Route(s)
+         * Админ Рауты
          */
         Route::namespace('Auth')->group(function(){
             //Логин 
