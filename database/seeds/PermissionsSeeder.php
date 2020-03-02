@@ -14,7 +14,7 @@ class PermissionsSeeder extends Seeder
     public function run()
     {
         // Удаляем предыдущие данные
-        DB::table('permissions')->truncate();
+        // DB::table('permissions')->truncate();
 
         $permissions = array(
             array('name' => 'Can Create Permission'),
